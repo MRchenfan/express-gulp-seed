@@ -1,0 +1,11 @@
+<div class="content-wrapper" ng-class="{ 'open': sidebarToggle }">
+	<db-header></db-header>
+	<div class="content">
+		<div class="col-xs-12">
+			<div ui-view></div>
+		</div>
+	</div>
+</div>
+<div class="sidebar-wrapper" ng-class="{ 'open': sidebarToggle }">
+	<db-sidebar></db-sidebar>
+</div>
